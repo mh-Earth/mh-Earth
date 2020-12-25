@@ -3,7 +3,7 @@
 ---
 ## I'm a student!!
 
-- 🔭 I am working at home !
+- 🔭 I am working at a openCV project 😁
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects
