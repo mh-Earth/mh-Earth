@@ -9,11 +9,6 @@
 - 🥅 2021 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to code code and code
 ---
-### Spotify Playing 🎧
-
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/user/swyqyimdc12jajde4vpwd2x1b)
-
----
 
 ### Connect with me:
 
@@ -56,12 +51,12 @@
 ---
 
 
+![mh-Earh's GitHub stats](https://github-readme-stats.vercel.app/api?username=mh-Earth&show_icons=true&theme=radical)
 
-<details>
-  <summary>:zap: GitHub Stats</summary>
+---
 
-  <img alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=mh-Earth&show_icons=true&hide_border=true" />
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mh-Earth&layout=compact&theme=radical)](https://github.com/mh-Earth/github-readme-stats)
 
-</details>
+
 
 [instagram]:https://www.instagram.com/_python_coding/
