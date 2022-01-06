@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="media quary.css">
+    <title>Meherab</title>
+    <style>
+
+    </style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navber">
+
+        <!-- <div class="logo">MEHERAB</div> -->
+        <div class="repDiv">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+
+        <div class="navbox">
+            <a onclick="activebutton(0)" style="--i:1" href="#sMedia" class="navbnt">
+                <li class="navitems" id="navitem5"><i class="icon fa fa-user" aria-hidden="true"></i></li>
+            </a>
+            <a onclick="activebutton(1)" style="--i:2" href="#work" class="navbnt">
+                <li class="navitems" id="navitem4"><i class="icon fa fa-building" aria-hidden="true"></i></li>
+            </a>
+            <a onclick="activebutton(2)" style="--i:3" href="#skills" class="navbnt">
+                <li class="navitems" id="navitem3"><i class="icon fa fa-cog" aria-hidden="true"></i></li>
+            </a>
+            <a onclick="activebutton(3)" style="--i:4" href="#education" class="navbnt">
+                <li class="navitems" id="navitem2"><i class="icon fa fa-graduation-cap" aria-hidden="true"></i></li>
+            </a>
+            <a onclick="activebutton(4)" style="--i:5" href="#home" class="navbnt active">
+                <li class="navitems" id="navitem1"><i class="icon fa fa-home active" aria-hidden="true"></i></li>
+            </a>
+        </div>
+
+        <!-- <div class="iconbar"></div> -->
+    </nav>
+
+
+    <main>
+
+        <section class="home" id="home">
+            <!-- <img src="/human.png" alt="Image" srcset=""> -->
+            <img src="/img.jpg" alt="Image" srcset="">
+
+            <div id="homeText">
+                <h1>Lorem ipsum </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt, placeat recusandae illo totam
+                    consequuntur! Maiores aspernatur</p>
+                <p onclick="scrollTO()" class="homeButton">
+                    <a href="#sMedia"></a>
+                </p>
+            </div>
+
+
+        </section>
+
+        <section class="education" id="education">
+            <h1>Education Qualification</h1>
+            <table style="width:100%">
+                <tr>
+                    <th>Exam</th>
+                    <th>Year</th>
+                    <th>Institute</th>
+                    <th>Result</th>
+                    <th>Group</th>
+                </tr>
+                <tr>
+                    <td>PSC</td>
+                    <td>2015</td>
+                    <td>Shanhin cadet shcool</td>
+                    <td>GPA:5.00</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>JSC</td>
+                    <td>2018</td>
+                    <td><a href="http://www.mmsc.edu.bd" target="_blnak"> Mohammadpur model school and college</td></a>
+                    <td>GPA:3.86</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>2021</td>
+                    <td><a href="http://www.mmsc.edu.bd" target="_blnak"> Mohammadpur model school and college</td></a>
+                    <td>GPA:4.22</td>
+                    <td>Arts</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>2023</td>
+                    <td><a href="http://www.mmsc.edu.bd" target="_blnak"> Mohammadpur model school and college</td></a>
+                    <td>GPA:0:00</td>
+                    <td>Arts</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+        <section class="skills" id="skills">
+            <h1>My Skills</h1>
+            <div id=skillDiv>
+
+                <div class="skill bt bl" id="gamedev">
+                    <h2>Game devlopment</h2>
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    <p>Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, vel distinctio
+                        non beatae architecto facilis ipsa repellendus magnam quas veniam aliquid amet maxime, ratione
+                        officia facere illum voluptas maiores explicabo! dolor sit amet consectetur, adipisicing elit.
+                        Ullam et voluptates, vel at sunt sint.</p>
+
+                </div>
+                <div class="skill bt br" id="webdev">
+                    <h2>Web devlopment</h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quasi rem
+                        repellendus unde ea, adipisci provident, dolorem molestias necessitatibus rerum architecto
+                        similique! Officiis quis at non magni perspiciatis repellat. dolor sit amet consectetur,
+                        adipisicing elit. Ullam et voluptates, vel at sunt sint.</p>
+
+                </div>
+                <div class="skill bb bl" id="appdev">
+                    <h2>App devlopment</h2>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam assumenda,
+                        doloribus necessitatibus laboriosam enim nobis commodi quisquam eum aliquid at odio quos facere
+                        quae. Nemo quos sit perspiciatis corporis facilis. sit amet consectetur, adipisicing elit. Ullam
+                        et voluptates, vel at sunt sint.</p>
+                </div>
+                <div class="skill bb br" id="webvan">
+                    <h2>GUI devlopment</h2>
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia nihil
+                        similique iure ducimus minus reprehenderit temporibus architecto earum voluptate vel officia
+                        quas animi, aliquid optio consequatur, voluptatem eaque necessitatibus. A. sit amet consectetur,
+                        adipisicing elit. Ullam et voluptates, vel at sunt sint.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="work" id="work">
+
+            <h1>My works</h1>
+            <div class="workbox">
+
+                <div class="works" id="work1">
+                    <h2>On Screen keyboard</h2>
+                      <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, architecto. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Aut, dicta Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, temporibus. <a href="https://github.com/mh-Earth/python-on-screen-keyboard" target="_blank">Read more</a> </p>
+
+                </div>
+                <div class="works" id="work2">
+                    <h2>Alian Run Serise</h2>
+                      <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, architecto. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Aut, dicta Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, suscipit. <a href="https://github.com/mh-Earth/Alien-run" target="_blank"
+                            rel="noopener noreferrer">Read more</a> </p>
+
+                </div>
+                <div class="works" id="work3">
+                    <h2>Instraploit</h2>
+                      <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, architecto. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Aut, dicta Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, suscipit. <a href="https://github.com/mh-Earth/Instaploit" target="_blank"
+                            rel="noopener noreferrer">Read more</a> </p>
+
+                </div>
+                <div class="works" id="work4">
+                    <h2>Pong Game</h2>
+                      <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, architecto. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Aut, dicta Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, suscipit. <a href="https://github.com/mh-Earth/Pong-Game" target="_blank"
+                            rel="noopener noreferrer">Read more</a> </p>
+
+                </div>
+                <div class="works" id="work5">
+                    <h2>Corona Virus update app</h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, architecto. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Aut, dicta. <a href="https://github.com/mh-Earth/Corona-virus-Desktop-update-notification-app" target="_blank"
+                            rel="noopener noreferrer">Read more</a> </p>
+
+                </div>
+                <div class="works" id="work6">
+                    <h2>See more.....</h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, architecto. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Aut, dicta Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, suscipit. <a href="https://github.com/mh-Earth?tab=repositories" target="_blank"
+                            rel="noopener noreferrer">Read more</a> </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <div class="sMedia" id="sMedia">
+
+            <h1>Contact on</h1>
+            <div class="media">
+
+                <div class="facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100035880887454" target="_blank"
+                        rel="noopener noreferrer">Meherab Hossen</a>
+
+                </div>
+                <div class="instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <a href="http://instagram.com/_python_codding" target="_blank"
+                        rel="noopener noreferrer">_python_codding</a>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <div class=footerBar></div>
+
+
+    </footer>
+
+
+</body>
+<script src="engine.js"></script>
+
+</html>
